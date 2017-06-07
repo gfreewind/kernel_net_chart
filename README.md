@@ -1,5 +1,6 @@
 # kernel_skb_path
-It is the skb path of Linux kernel. I would like enlarge the flow always.
+It is the skb path of Linux kernel. I would like enlarge the flow always.  
+The flow is constructed based on latest netdev kernel whose git link is git://git.kernel.org/pub/scm/linux/kernel/git/davem/net.git
 
 
 Because I want to focus on the skb path from the lay 2 to socket layer, so the driver is not that I care about. I just selected the intel's e1000 driver to explain the NAPI. 
