@@ -19,3 +19,10 @@ Because I want to focus on the skb path from the lay 2 to socket layer, so the d
 There are two reasons as following
 1. Intel's driver is more clear than other vendor's.   
 2. The e1000 driver is most simplest and is enough to show the NAPI
+
+
+# skb_member
+
+It is used to describe the sk_buff's members, and show which functions would access them. 
+It could help you learn about the struct sk_buff. 
+
