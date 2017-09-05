@@ -4,8 +4,9 @@ I always focus on the networks software devlopment whatever userspace or kernel 
 In this repository, I try to describe the details of kernel networks module as many as possible. 
 
 Now there are two flow charts already now.  
-1. kernel_skb_path: Describe the skb's flow path
-2. skb_member: Describe the skb's members.  
+1. kernel_skb_path: Describe the skb's flow path.  
+2. netfilter_path: Describe the netfilter path which skb would go through.  
+2. skb_member: Describe the skb's members.   
 
 # kernel_skb_path
 It is the skb path of Linux kernel. I would like enlarge the flow always.  
@@ -20,6 +21,10 @@ There are two reasons as following
 1. Intel's driver is more clear than other vendor's.   
 2. The e1000 driver is most simplest and is enough to show the NAPI
 
+
+# netfilter_path  
+It is the netfilter path which skb would go through.  
+The netfilter is often used as the firewall in network devices and servers. The path chart could help you learn about the netfilter.  
 
 # skb_member
 
