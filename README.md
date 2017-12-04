@@ -21,22 +21,28 @@ Because I want to focus on the skb path from the lay 2 to socket layer, so the d
 
 There are two reasons as following
 1. Intel's driver is more clear than other vendor's.   
-2. The e1000 driver is most simplest and is enough to show the NAPI
+2. The e1000 driver is most simplest and is enough to show the NAPI  
+
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/kernel_skb_path.jpg
 
 
 # netfilter_path  
 It is the netfilter path which skb would go through.  
 The netfilter is often used as the firewall in network devices and servers. The path chart could help you learn about the netfilter.  
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/netfilter_path.jpg  
 
 # ipvlan  
-It is the complete flow of ipvlan including control plane and data plane
+It is the complete flow of ipvlan including control plane and data plane  
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/ipvlan.jpg
 
 # skb_member
 
 It is used to describe the sk_buff's members, and show which functions would access them. 
-It could help you learn about the struct sk_buff. 
+It could help you learn about the struct sk_buff.  
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/skb_members.jpg
 
 
 # skb_gro  
 Describe the GRO flow of skb. It would refer too many details of specific proto.  
-So there is no investigation deep for the protos.
+So there is no investigation deep for the protos.  
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/skb_gro.jpg
