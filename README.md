@@ -6,7 +6,9 @@ In this repository, I try to describe the details of kernel networks module as m
 Now there are two flow charts already now.  
 1. kernel_skb_path: Describe the skb's flow path.  
 2. netfilter_path: Describe the netfilter path which skb would go through.  
-2. skb_member: Describe the skb's members.   
+3. skb_member: Describe the skb's members.  
+4. skb_gro: Describe the skb GRO flow.  
+
 
 # kernel_skb_path
 It is the skb path of Linux kernel. I would like enlarge the flow always.  
@@ -31,3 +33,7 @@ The netfilter is often used as the firewall in network devices and servers. The 
 It is used to describe the sk_buff's members, and show which functions would access them. 
 It could help you learn about the struct sk_buff. 
 
+
+# skb_gro  
+Describe the GRO flow of skb. It would refer too many details of specific proto.  
+So there is no investigation deep for the protos.
