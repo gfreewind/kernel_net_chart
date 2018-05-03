@@ -51,3 +51,7 @@ link: https://github.com/gfreewind/kernel_net_chart/blob/master/skb_members.jpg
 Describe the GRO flow of skb. It would refer too many details of specific proto.  
 So there is no investigation deep for the protos.  
 link: https://github.com/gfreewind/kernel_net_chart/blob/master/skb_gro.jpg
+
+
+# udp_protocol  
+Describe the flow of UDP recept and deliver flow based on the struct udp_protocol and udp_prot.  
