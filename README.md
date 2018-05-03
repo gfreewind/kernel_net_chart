@@ -35,6 +35,11 @@ link: https://github.com/gfreewind/kernel_net_chart/blob/master/netfilter_path.j
 It is the complete flow of ipvlan including control plane and data plane  
 link: https://github.com/gfreewind/kernel_net_chart/blob/master/ipvlan.jpg
 
+# macvlan  
+It is the complete flow of macvlan including control plane and data plane  
+link: https://github.com/gfreewind/kernel_net_chart/blob/master/macvlan.jpg
+
+
 # skb_member
 
 It is used to describe the sk_buff's members, and show which functions would access them. 
